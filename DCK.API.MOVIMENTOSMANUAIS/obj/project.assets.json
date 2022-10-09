@@ -317,11 +317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhonatamacedo\\Desktop\\API\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS.csproj",
+      "projectUniqueName": "C:\\Users\\jhonatamacedo\\Desktop\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS.csproj",
       "projectName": "DCK.API.MOVIMENTOSMANUAIS",
-      "projectPath": "C:\\Users\\jhonatamacedo\\Desktop\\API\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS.csproj",
+      "projectPath": "C:\\Users\\jhonatamacedo\\Desktop\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS.csproj",
       "packagesPath": "C:\\Users\\jhonatamacedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhonatamacedo\\Desktop\\API\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\obj\\",
+      "outputPath": "C:\\Users\\jhonatamacedo\\Desktop\\DCK.API.MOVIMENTOSMANUAIS\\DCK.API.MOVIMENTOSMANUAIS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhonatamacedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
