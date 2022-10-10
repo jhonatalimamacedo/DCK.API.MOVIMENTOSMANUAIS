@@ -13,14 +13,21 @@ namespace Infrastructure
                 p.COD_PRODUTO,
                 p.COD_COST
             });
-            modelBuilder.Entity<MOVIMENTO_MANUAL>().HasKey(p => new { p.DAT_MES });
+            modelBuilder.Entity<MOVIMENTO_MANUAL>().HasKey(m => new {
+                m.DAT_MES,
+                m.DAT_ANO,
+                m.NUM_LANCAMENTO,
+                m.COD_PRODUTO
+            });
+            modelBuilder.Entity<MOVIMENTO_MANUAL>().Property(m => m.DAT_MOVIMENTO).HasColumnType("smalldatetime");
+
         }
 
         public Context(DbContextOptions<Context> opts) : base(opts) { }
 
-        public DbSet<MOVIMENTO_MANUAL> mOVIMENTO_MANUAL { get; set; }
-        public DbSet<PRODUTO> pRODUTO { get; set; }
-        public DbSet<PRODUTO_COSIF> pRODUTO_COSIF { get; set; }
+        public DbSet<MOVIMENTO_MANUAL> MOVIMENTO_MANUAL { get; set; }
+        public DbSet<PRODUTO> PRODUTO { get; set; }
+        public DbSet<PRODUTO_COSIF> PRODUTO_COSIF { get; set; }
 
     }
 
